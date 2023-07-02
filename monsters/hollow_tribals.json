@@ -4,7 +4,7 @@
 		"type": "MONSTER",
 		"name": { "str": "hollow warrior" },
 		"description": "A human with the same dead eyes as the others.  This one is wearing armor and carrying a spear.",
-		"default_faction": "hollow",
+		"default_faction": "hollow_warrior",
 		"bodytype": "human",
 		"looks_like": "mon_feral_sapien_spear",
 		"species": [ "HUMAN" ], 
