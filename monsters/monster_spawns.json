@@ -1,0 +1,20 @@
+[
+	{
+		"name": "GROUP_HOLLOW_TRIBALS",
+		"type": "monstergroup",
+		"monsters": [
+		{ "monster": "mon_hollow_tribal_warrior", "weight": 20 },
+		{ "monster": "mon_hollow_tribal_warrior", "weight": 4, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
+		{ "monster": "mon_hollow_tribal", "weight": 40 },
+		{ "monster": "mon_hollow_tribal", "weight": 8, "cost_multiplier": 2, "pack_size": [ 1, 4 ] }
+		]
+	},
+	{
+		"name": "GROUP_HOLLOW_TRIBAL_WARPARTY",
+		"type": "monstergroup",
+		"monsters": [
+		{ "monster": "mon_hollow_tribal_warrior", "weight": 20 },
+		{ "monster": "mon_hollow_tribal_warrior", "weight": 4, "cost_multiplier": 2, "pack_size": [ 1, 2 ] }
+		]
+	},
+]

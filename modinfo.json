@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "feral_villages_innawoods",
+    "name": "Innawoods Hostile Villages",
+    "authors": [ "Standing Storm" ],
+    "maintainers": [ "Standing Storm" ],
+    "description": "Adds hostile villages and inhabitants to Innawoods games.  Uses custom monsters with only stone-age technology, so it adds more humans to the setting without jump-starting progression or making the game easier.",
+    "category": "content",
+    "dependencies": [ "dda", "innawood" ],
+    "obsolete": false
+  }
+]
