@@ -91,7 +91,7 @@
       ],
       "flags": [ "ERASE_ALL_BEFORE_PLACING_TERRAIN" ],
       "palettes": [ "hollow_village_palette" ],
-      "place_nested": [ { "chunks": [ "hollow_village_interior" ], "x": 2, "y": 2 } ]
+      "place_nested": [ { "chunks": [ "hollow_village_interior" ], "x": 1, "y": 1 } ]
     }
   },
   {
