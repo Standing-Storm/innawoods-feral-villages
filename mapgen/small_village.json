@@ -101,7 +101,8 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -5 ],
     "city_sizes": [ 0, 13 ],
-    "occurrences": [ 0, 2 ]
+    "occurrences": [ 0, 2 ],
+	  "spawns": { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "population": [ 2, 6 ], "radius": [ 2, 10 ] }
   },
   {
     "type": "overmap_terrain",
