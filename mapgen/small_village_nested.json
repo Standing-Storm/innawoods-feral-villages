@@ -1,5 +1,6 @@
 [
   {
+	  "type": "mapgen",
 	  "method": "json",
 	  "nested_mapgen_id": "hollow_village_interior",
 	  "object": {
