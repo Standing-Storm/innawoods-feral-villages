@@ -36,9 +36,9 @@
     "container-item": "bag_canvas",
     "entries": [
 		{ "item": "sausage_wasteland", "count": [ 6, 10 ], "prob": 70 },
-		{ "item": "honey_bottled", "count": [ 4, 8 ], "container": "clay_pot", "prob": 50 },
+		{ "item": "honey_bottled", "count": [ 4, 8 ], "container-item": "clay_pot", "prob": 50 },
 		{ "item": "meat_smoked", "count": [ 6, 10 ], "prob": 70 },
-		{ "item": "water_clean", "count": [ 4, 8 ], "container": "clay_pot", "prob": 80 },
+		{ "item": "water_clean", "count": [ 4, 8 ], "container-item": "clay_pot", "prob": 80 },
 		{ "item": "fish_smoked", "count": [ 6, 10 ], "prob": 70 }
     ]
   },
