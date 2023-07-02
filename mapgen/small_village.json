@@ -12,7 +12,7 @@
       "o": "t_dirtfloor_thatchroof",
       "B": "t_dirtfloor_thatchroof",
       "=": "t_dirtfloor_thatchroof",
-      "I": "t_rock_wall_half",
+      "I": "t_drystone_wall_half",
       ".": "t_dirt"
     },
     "items": {
