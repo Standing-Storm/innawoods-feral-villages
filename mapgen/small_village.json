@@ -48,13 +48,14 @@
     "subtype": "distribution",
     "entries": [
       { "group": "hollow_village_foodstuffs", "count-max": 3, "prob": 70 },
+			{ "group": "tools_common_small", "count-max": 3, "prob": 50 },
       { "item": "arrow_fire_hardened_fletched", "count-max": 5, "prob": 40 },
       { "item": "bone_knife", "prob": 40 },
       { "item": "clay_pot", "prob": 50 },
       { "item": "bowl_wood", "prob": 60 },
       { "item": "skewer_bone", "prob": 20 },
       { "item": "spear_wood", "prob": 10 },
-	  { "item": "javelin", "prob": 10, "count-max": 8 }
+			{ "item": "javelin", "prob": 10, "count-max": 8 }
     ]
   },
   {
