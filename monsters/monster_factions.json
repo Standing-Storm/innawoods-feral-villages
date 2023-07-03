@@ -1,16 +1,24 @@
 [
-	{
-		"type": "MONSTER_FACTION",
-		"name": "hollow_civilian",
-		"base_faction": "human",
-		"friendly": [ "hollow_warrior" ],
-		"by_mood": [ "player" ]
-	},
-	{
-		"type": "MONSTER_FACTION",
-		"name": "hollow_warrior",
-		"base_faction": "human",
-		"friendly": [ "hollow_civilian" ],
-		"by_mood": [ "player" ]
-	}
+  {
+    "type": "MONSTER_FACTION",
+    "name": "hollow_civilian",
+    "base_faction": "human",
+    "friendly": [ "hollow_warrior, hollow_hunter" ],
+    "by_mood": [ "player" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "hollow_warrior",
+    "base_faction": "human",
+    "friendly": [ "hollow_civilian", "hollow_hunter" ],
+    "by_mood": [ "player" ]
+  },
+  {
+    "type": "MONSTER_FACTION",
+    "name": "hollow_hunter",
+    "base_faction": "human",
+    "friendly": [ "hollow_civilian, hollow_warrior" ],
+    "hate": [ "small_animal", "vermin" ],
+    "by_mood": [ "player" ]
+  }
 ]

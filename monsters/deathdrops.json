@@ -9,7 +9,7 @@
       { "item": "helmet_larmor", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "armor_larmor", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "leathersandals", "prob": 100, "damage": [ 1, 4 ] },
-      { "item" :"legguard_larmor", "prob": 100, "damage": [ 1, 4 ] },
+      { "item": "legguard_larmor", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "vambrace_larmor", "prob": 100, "damage": [ 1, 4 ] },
       { "group": "male_underwear_bottom", "prob": 100, "damage": [ 1, 4 ] }
     ]
@@ -30,7 +30,7 @@
       { "group": "npc_gloves", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "wicker_backpack", "prob": 35 },
       { "item": "clay_jar", "prob": 20 },
-      { "group": "tools_common_small", "prob": 25 } 
+      { "group": "tools_common_small", "prob": 25 }
     ]
   },
   {
@@ -38,13 +38,13 @@
     "subtype": "collection",
     "id": "hollow_hunter_death_drops",
     "entries": [
-      { "item": "shortbow": 
+      { "item": "shortbow", "prob": 100, "damage": [ 1, 2 ] },
       { "item": "quiver_birchbark", "contents-group": "quiver_bow_hunter", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "sheath_birchbark", "contents-item": "primitive_knife", "prob": 100, "damage": [ 1, 2 ] },
       { "item": "chestwrap_leather", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "leathersandals", "prob": 100, "damage": [ 1, 4 ] },
       { "group": "male_underwear_bottom", "prob": 100, "damage": [ 1, 4 ] },
-      { "item" :"legguard_larmor", "prob": 100, "damage": [ 1, 4 ] },
+      { "item": "legguard_larmor", "prob": 100, "damage": [ 1, 4 ] },
       { "group": "pants_male", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "vambrace_larmor", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "grass_cloak", "prob": 30, "damage": [ 1, 4 ] },

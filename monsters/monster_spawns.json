@@ -1,20 +1,30 @@
 [
-	{
-		"name": "GROUP_HOLLOW_TRIBALS",
-		"type": "monstergroup",
-		"monsters": [
-		{ "monster": "mon_hollow_tribal_warrior", "weight": 20 },
-		{ "monster": "mon_hollow_tribal_warrior", "weight": 4, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
-		{ "monster": "mon_hollow_tribal", "weight": 40 },
-		{ "monster": "mon_hollow_tribal", "weight": 8, "cost_multiplier": 2, "pack_size": [ 1, 4 ] }
-		]
-	},
-	{
-		"name": "GROUP_HOLLOW_TRIBAL_WARPARTY",
-		"type": "monstergroup",
-		"monsters": [
-		{ "monster": "mon_hollow_tribal_warrior", "weight": 20 },
-		{ "monster": "mon_hollow_tribal_warrior", "weight": 4, "cost_multiplier": 2, "pack_size": [ 1, 2 ] }
-		]
-	}
+  {
+    "name": "GROUP_HOLLOW_TRIBALS",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_hollow_tribal_warrior", "weight": 20 },
+      { "monster": "mon_hollow_tribal_warrior", "weight": 4, "cost_multiplier": 2, "pack_size": [ 1, 2 ] },
+      { "monster": "mon_hollow_tribal", "weight": 40 },
+      { "monster": "mon_hollow_tribal", "weight": 8, "cost_multiplier": 2, "pack_size": [ 1, 4 ] }
+    ]
+  },
+  {
+    "name": "GROUP_HOLLOW_TRIBAL_WARPARTY",
+    "type": "monstergroup",
+    "monsters": [
+      { "monster": "mon_hollow_tribal_warrior", "weight": 20 },
+      { "monster": "mon_hollow_tribal_warrior", "weight": 4, "cost_multiplier": 2, "pack_size": [ 1, 2 ] }
+    ]
+  },
+  {
+    "name": "GROUP_HOLLOW_TRIBAL_WARPARTY",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_hollow_hunter", "weight": 4, "pack_size": [ 2, 4 ] } ]
+  },
+  {
+    "name": "GROUP_FOREST",
+    "type": "monstergroup",
+    "monsters": [ { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "weight": 75, "cost_multiplier": 2 } ]
+  }
 ]
