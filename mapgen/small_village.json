@@ -43,6 +43,7 @@
       { "group": "hollow_village_foodstuffs", "count-max": 2, "prob": 70 },
       { "group": "tools_common_small", "count-max": 3, "prob": 50 },
       { "item": "arrow_fire_hardened_fletched", "count-max": 5, "prob": 40 },
+      { "item": "jug_clay", "prob": 50 },
       { "item": "bone_knife", "prob": 40 },
       { "item": "clay_pot", "prob": 50 },
       { "item": "bowl_wood", "prob": 60 },

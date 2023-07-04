@@ -21,7 +21,7 @@
     "entries": [
       { "item": "sheath_birchbark", "contents-item": "primitive_knife", "prob": 30 },
       { "group": "shoes_unisex", "prob": 100, "damage": [ 1, 4 ] },
-      { "item": "npc_hat", "prob": 100, "damage": [ 1, 4 ] },
+      { "group": "npc_hat", "prob": 100, "damage": [ 1, 4 ] },
       { "group": "male_underwear_bottom", "prob": 100, "damage": [ 1, 4 ] },
       { "group": "female_underwear_top", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "chestwrap_leather", "prob": 100, "damage": [ 1, 4 ] },
@@ -29,7 +29,7 @@
       { "group": "npc_coat", "prob": 40, "damage": [ 1, 4 ] },
       { "group": "npc_gloves", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "wicker_backpack", "prob": 35 },
-      { "item": "clay_jar", "prob": 20 },
+      { "item": "jug_clay", "prob": 20 },
       { "group": "tools_common_small", "prob": 25 }
     ]
   },
