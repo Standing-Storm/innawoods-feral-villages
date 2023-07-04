@@ -4,7 +4,7 @@
     "method": "json",
     "nested_mapgen_id": "hollow_village_interior",
     "object": {
-      "faction_owner": [ { "id": "hollow_warrior", "x": [ 0, 21 ], "y": [ 0, 21 ] } ],
+      "faction_owner": [ { "id": "hollow_ones_faction", "x": [ 0, 21 ], "y": [ 0, 21 ] } ],
       "mapgensize": [ 22, 22 ],
       "rows": [
         "......................",
