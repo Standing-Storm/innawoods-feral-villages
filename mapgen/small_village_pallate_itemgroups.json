@@ -13,7 +13,9 @@
       "B": "t_dirtfloor_thatchroof",
       "=": "t_dirtfloor_thatchroof",
       "I": "t_drystone_wall_half",
-      ".": "t_dirt"
+      "W": "t_wooden_well",
+      ".": "t_grass",
+      "_": "t_dirt"
     },
     "items": {
       "U": { "item": "hollow_village_foodstuffs", "repeat": [ 1, 2 ], "chance": 80 },

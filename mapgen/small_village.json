@@ -1,63 +1,12 @@
 [
   {
-    "type": "palette",
-    "id": "hollow_village_palette",
-    "terrain": {
-      "3": "t_door_makeshift_c",
-      "1": "t_palisade",
-      "!": "t_pit_spiked",
-      "-": "t_wall_log",
-      "|": "t_wall_log",
-      "#": "t_dirtfloor_thatchroof",
-      "o": "t_dirtfloor_thatchroof",
-      "B": "t_dirtfloor_thatchroof",
-      "=": "t_dirtfloor_thatchroof",
-      "I": "t_drystone_wall_half",
-      "W": "t_wooden_well",
-      ".": "t_grass",
-      "_": "t_dirt"
-    },
-    "items": {
-      "U": { "item": "hollow_village_foodstuffs", "repeat": [ 1, 2 ], "chance": 80 },
-      "=": { "item": "hollow_village_storage", "chance": 70, "repeat": [ 1, 3 ] }
-    },
-    "furniture": { "t": "f_logstool", "o": "f_firering", "O": "f_firering", "=": "f_rack_wood", "H": "f_smoking_rack", "B": "f_hammock" }
-  },
-  {
-    "id": "hollow_village_foodstuffs",
-    "type": "item_group",
-    "subtype": "collection",
-    "on_overflow": "spill",
-    "container-item": "bag_canvas",
-    "entries": [
-      { "item": "sausage_wasteland", "count": [ 6, 10 ], "prob": 30 },
-      { "item": "honey_bottled", "count": [ 1, 2 ], "container-item": "clay_pot", "prob": 20 },
-      { "item": "meat_smoked", "count": [ 6, 10 ], "prob": 50 },
-      { "item": "water_clean", "count": [ 4, 8 ], "container-item": "clay_pot", "prob": 60 },
-      { "item": "fish_smoked", "count": [ 6, 10 ], "prob": 50 }
-    ]
-  },
-  {
-    "id": "hollow_village_storage",
-    "type": "item_group",
-    "subtype": "distribution",
-    "entries": [
-      { "group": "hollow_village_foodstuffs", "count-max": 2, "prob": 70 },
-      { "group": "tools_common_small", "count-max": 3, "prob": 50 },
-      { "item": "arrow_fire_hardened_fletched", "count-max": 5, "prob": 40 },
-      { "item": "jug_clay", "prob": 50 },
-      { "item": "bone_knife", "prob": 40 },
-      { "item": "clay_pot", "prob": 50 },
-      { "item": "bowl_wood", "prob": 60 },
-      { "item": "skewer_bone", "prob": 20 },
-      { "item": "spear_wood", "prob": 10 },
-      { "item": "javelin", "prob": 10, "count-max": 8 }
-    ]
-  },
-  {
     "type": "mapgen",
     "method": "json",
-    "om_terrain": "hollow_village",
+    "om_terrain": [
+      [ "hollow_village1", "hollow_village2", "hollow_village3" ],
+      [ "hollow_village4", "hollow_village5", "hollow_village6" ],
+      [ "hollow_village7", "hollow_village8", "hollow_village9" ]
+    ],
     "object": {
       "fill_ter": "t_dirt",
       "rows": [
@@ -141,16 +90,40 @@
   {
     "type": "overmap_special",
     "id": "hollow_village",
-    "overmaps": [ { "point": [ 0, 0, 0 ], "overmap": "hollow_village_north" } ],
+    "overmaps": [
+      { "point": [ 0, 0, 0 ], "overmap": "hollow_village1_north" },
+      { "point": [ 1, 0, 0 ], "overmap": "hollow_village2_north" },
+      { "point": [ 2, 0, 0 ], "overmap": "hollow_village3_north" },
+      { "point": [ 0, 1, 0 ], "overmap": "hollow_village4_north" },
+      { "point": [ 1, 1, 0 ], "overmap": "hollow_village5_north" },
+      { "point": [ 2, 1, 0 ], "overmap": "hollow_village6_north" },
+      { "point": [ 0, 2, 0 ], "overmap": "hollow_village7_north" },
+      {
+        "point": [ 1, 2, 0 ],
+        "overmap": "hollow_village8_north",
+        "locations": [ "forest_edge", "field", "lake_shore" ]
+      },
+      { "point": [ 2, 2, 0 ], "overmap": "hollow_village9_north" }
+    ],
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -5 ],
     "city_sizes": [ 0, 13 ],
-    "occurrences": [ 0, 2 ],
+    "occurrences": [ 0, 1 ],
     "spawns": { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "population": [ 2, 6 ], "radius": [ 2, 10 ] }
   },
   {
     "type": "overmap_terrain",
-    "id": [ "hollow_village" ],
+    "id": [
+      "hollow_village1",
+      "hollow_village2",
+      "hollow_village3",
+      "hollow_village4",
+      "hollow_village5",
+      "hollow_village6",
+      "hollow_village7",
+      "hollow_village8",
+      "hollow_village9"
+    ],
     "name": "small village",
     "sym": "v",
     "color": "red",
