@@ -1,0 +1,55 @@
+[
+  {
+    "type": "palette",
+    "id": "hollow_village_palette",
+    "terrain": {
+      "3": "t_door_makeshift_c",
+      "1": "t_palisade",
+      "!": "t_pit_spiked",
+      "-": "t_wall_log",
+      "|": "t_wall_log",
+      "#": "t_dirtfloor_thatchroof",
+      "o": "t_dirtfloor_thatchroof",
+      "B": "t_dirtfloor_thatchroof",
+      "=": "t_dirtfloor_thatchroof",
+      "I": "t_drystone_wall_half",
+      ".": "t_dirt"
+    },
+    "items": {
+      "U": { "item": "hollow_village_foodstuffs", "repeat": [ 1, 2 ], "chance": 80 },
+      "=": { "item": "hollow_village_storage", "chance": 70, "repeat": [ 1, 3 ] }
+    },
+    "furniture": { "t": "f_logstool", "o": "f_firering", "O": "f_firering", "=": "f_rack_wood", "H": "f_smoking_rack", "B": "f_hammock" }
+  },
+  {
+    "id": "hollow_village_foodstuffs",
+    "type": "item_group",
+    "subtype": "collection",
+    "on_overflow": "spill",
+    "container-item": "bag_canvas",
+    "entries": [
+      { "item": "sausage_wasteland", "count": [ 6, 10 ], "prob": 30 },
+      { "item": "honey_bottled", "count": [ 1, 2 ], "container-item": "clay_pot", "prob": 20 },
+      { "item": "meat_smoked", "count": [ 6, 10 ], "prob": 50 },
+      { "item": "water_clean", "count": [ 4, 8 ], "container-item": "clay_pot", "prob": 60 },
+      { "item": "fish_smoked", "count": [ 6, 10 ], "prob": 50 }
+    ]
+  },
+  {
+    "id": "hollow_village_storage",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "hollow_village_foodstuffs", "count-max": 2, "prob": 70 },
+      { "group": "tools_common_small", "count-max": 3, "prob": 50 },
+      { "item": "arrow_fire_hardened_fletched", "count-max": 5, "prob": 40 },
+      { "item": "jug_clay", "prob": 50 },
+      { "item": "bone_knife", "prob": 40 },
+      { "item": "clay_pot", "prob": 50 },
+      { "item": "bowl_wood", "prob": 60 },
+      { "item": "skewer_bone", "prob": 20 },
+      { "item": "spear_wood", "prob": 10 },
+      { "item": "javelin", "prob": 10, "count-max": 8 }
+    ]
+  }
+]
