@@ -15,6 +15,7 @@
       "I": "t_drystone_wall_half",
       "W": "t_wooden_well",
       ".": "t_grass",
+      ",":  [ [ "t_region_soil", 95 ], [ "t_grass", 5 ] ],
       "_": "t_dirt",
        "%": [ [ "t_dirtmound", 98 ], [ "t_region_soil", 2 ] ],
        "Ʌ": [ [ "t_dirtmound", 98 ], [ "t_region_soil", 2 ] ],
