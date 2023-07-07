@@ -31,7 +31,10 @@
         "........I___I........."
       ],
       "palettes": [ "hollow_village_palette" ],
-      "place_monster": [ { "group": "GROUP_HOLLOW_TRIBALS", "x": [ 0, 21 ], "y": [ 0, 21 ], "repeat": [ 10, 20 ] } ]
+      "place_monster": [
+        { "group": "GROUP_HOLLOW_TRIBALS", "x": [ 0, 21 ], "y": [ 0, 21 ], "repeat": [ 10, 20 ] },
+        { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "x": [ 7, 14 ], "y": [ 15, 21 ], "repeat": [ 2, 4 ], "chance": 66 }
+      ]
     }
   }
 ]
