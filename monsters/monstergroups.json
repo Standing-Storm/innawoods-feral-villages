@@ -28,7 +28,10 @@
   {
     "name": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
     "type": "monstergroup",
-    "monsters": [ { "monster": "mon_hollow_hunter", "weight": 4, "pack_size": [ 2, 5 ] } ]
+    "monsters": [
+      { "monster": "mon_hollow_hunter", "weight": 20 },
+      { "monster": "mon_hollow_hunter", "weight": 4, "pack_size": [ 2, 5 ] }
+    ]
   },
   {
     "name": "GROUP_HOLLOW_ZOMBIES",
