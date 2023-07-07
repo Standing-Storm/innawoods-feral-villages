@@ -50,5 +50,23 @@
       { "item": "grass_cloak", "prob": 30, "damage": [ 1, 4 ] },
       { "item": "rope_loop", "prob": 55, "damage": [ 1, 4 ] }
     ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "hollow_one_death_drops_zombie",
+    "entries": [
+      { "item": "sheath_birchbark", "contents-item": "primitive_knife", "prob": 30 },
+      { "group": "shoes_unisex", "prob": 100, "damage": [ 1, 4 ] },
+      { "group": "npc_hat", "prob": 100, "damage": [ 1, 4 ] },
+      { "group": "male_underwear_bottom", "prob": 100, "damage": [ 1, 4 ] },
+      { "group": "female_underwear_top", "prob": 100, "damage": [ 1, 4 ] },
+      { "item": "chestwrap_leather", "prob": 100, "damage": [ 1, 4 ] },
+      { "group": "pants_male", "prob": 100, "damage": [ 1, 4 ] },
+      { "group": "npc_coat", "prob": 40, "damage": [ 1, 4 ] },
+      { "group": "npc_gloves", "prob": 100, "damage": [ 1, 4 ] },
+      { "item": "wicker_backpack", "prob": 35, "damage": [ 1, 4 ] },
+      { "group": "tools_common_small", "prob": 25, "damage": [ 1, 4 ] }
+    ]
   }
 ]

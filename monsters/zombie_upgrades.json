@@ -1,0 +1,34 @@
+[
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_INNAWOOD_UPGRADE",
+    "//": "Masters pick from here when upgrading; no dogs, bionics, or profession-types.  Note that 'freq' units are tenth of a percent, with default filling in the gap.",
+    "monsters": [
+      { "monster": "mon_zombie_tough", "weight": 110 },
+      { "monster": "mon_zombie_grabber", "weight": 30 },
+      { "monster": "mon_zombie_grappler", "weight": 90 },
+      { "monster": "mon_zombie_hunter", "weight": 60 },
+      { "monster": "mon_skeleton", "weight": 80 },
+      { "monster": "mon_zombie_smoker", "weight": 30 },
+      { "monster": "mon_zombie_shady", "weight": 30 },
+      { "monster": "mon_zombie_gasbag", "weight": 30 },
+      { "monster": "mon_zombie_biter", "weight": 30 },
+      { "monster": "mon_zombie_shrieker", "weight": 90 },
+      { "monster": "mon_zombie_acidic", "weight": 80 },
+      { "monster": "mon_zombie_brute", "weight": 45 },
+      { "monster": "mon_zombie_hollow", "weight": 5 },
+      { "monster": "mon_zombie_winged", "weight": 60 },
+      { "monster": "mon_zombie_regenerating", "weight": 10 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_CRAWLER_INNAWOOD_UPGRADE",
+    "//": "Masters pick from here when upgrading; no dogs, bionics, or profession-types.  Note that 'freq' units are tenth of a percent, with default filling in the gap.",
+    "monsters": [
+      { "monster": "mon_zombie_crawler" },
+      { "monster": "mon_zombie_crawler_pupa", "weight": 500 },
+      { "monster": "mon_zombie_crawler_pupa_decoy", "weight": 350 }
+    ]
+  }
+]
