@@ -2,7 +2,7 @@
   {
     "type": "furniture",
     "id": "f_rack_primitive",
-    "name": "wooden rack",
+    "name": "simple wooden rack",
     "symbol": "{",
     "description": "Wooden planks lashed together with cords to form a set of shelves.",
     "color": "brown",

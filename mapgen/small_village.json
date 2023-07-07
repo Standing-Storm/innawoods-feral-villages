@@ -9,7 +9,16 @@
     ],
     "object": {
       "fill_ter": "t_dirt",
-      "faction_owner": [ { "id": "hollow_ones_faction", "x": [ 0, 71 ], "y": [ 0, 71 ] } ],
+      "faction_owner": [
+        { "id": "hollow_ones_faction", "x": [ 0, 23 ], "y": [ 0, 23 ] },
+        { "id": "hollow_ones_faction", "x": [ 24, 47 ], "y": [ 0, 23 ] },
+        { "id": "hollow_ones_faction", "x": [ 48, 71 ], "y": [ 0, 23 ] },
+        { "id": "hollow_ones_faction", "x": [ 0, 23 ], "y": [ 24, 47 ] },
+        { "id": "hollow_ones_faction", "x": [ 48, 71 ], "y": [ 24, 47 ] },
+        { "id": "hollow_ones_faction", "x": [ 0, 23 ], "y": [ 48, 71 ] },
+        { "id": "hollow_ones_faction", "x": [ 24, 47 ], "y": [ 48, 71 ] },
+        { "id": "hollow_ones_faction", "x": [ 48, 71 ], "y": [ 48, 71 ] }
+      ],
       "rows": [
         "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
         ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,",
@@ -40,7 +49,7 @@
         "%,%,%,%,%,%,%,%,%,%,%,%_1......................1_|+#3__♣♣,♣♣,♣♣,♣♣,♣♣,♣♣",
         "%,%,%,%,%,%,%,%,%,%,%,%_1......................1_|+#|__♣♣,♣♣,♣♣,♣♣,♣♣,♣♣",
         "%,%,%,%,%,%,%,%,%,%,%,%_1......................1_----__♣♣,♣♣,♣♣,♣♣,♣♣,♣♣",
-        "%,%,%,%,%,%,%,%,%,%,%,%_1......................_________________________",
+        "%,%,%,%,%,%,%,%,%,%,%,%_1......................1________________________",
         "%,%,%,%,%,%,%,%,%,%,%,%_1......................1_%,%,%,%,%,%,%,%,%,%,%,%",
         "%,%,%,%,%,%,%,%,%,%,%,%_1......................1_%,%,%,%,%,%,%,%,%,%,%,%",
         "%,%,%,%,%,%,%,%,%,%,%,%_1......................1_%,%,%,%,%,%,%,%,%,%,%,%",
@@ -78,41 +87,104 @@
         "ɅɅ,ɅɅ,ɅɅ,ɅɅ,ɅɅ_________________.........................._______________",
         "_______________...-----------__.........................................",
         "♣♣,♣♣,♣♣,♣♣,♣♣_...|=#B####B=|__.........................................",
-        "♣♣,♣♣,♣♣,♣♣,♣♣_...|=####o###3__...........................................",
+        "♣♣,♣♣,♣♣,♣♣,♣♣_...|=####o###3__.........................................",
         "♣♣,♣♣,♣♣,♣♣,♣♣_...|=#B#####B|...........................................",
-        "♣♣,♣♣,♣♣,♣♣,♣♣_...-----------..........................................",
+        "♣♣,♣♣,♣♣,♣♣,♣♣_...-----------...........................................",
         "♣♣,♣♣,♣♣,♣♣,♣♣_.........................................................",
         "♣♣,♣♣,♣♣,♣♣,♣♣_........................................................."
       ],
       "palettes": [ "hollow_village_palette" ],
-      "place_nested": [ { "chunks": [ "hollow_village_interior" ], "x": 24, "y": 24 } ],
-      "spawn_monster": [
-        { "group": "GROUP_HOLLOW_TRIBALS", "x": [ 0, 71 ], "y": [ 0, 23 ], "repeat": [ 8, 15 ], "chance": 50 },
-        { "group": "GROUP_HOLLOW_TRIBALS", "x": [ 0, 21 ], "y": [ 21, 72 ], "repeat": [ 8, 15 ], "chance": 50 },
-        { "group": "GROUP_HOLLOW_TRIBALS", "x": [ 47, 71 ], "y": [ 21, 72 ], "repeat": [ 8, 15 ], "chance": 50 },
-        { "group": "GROUP_HOLLOW_TRIBALS", "x": [ 22, 49 ], "y": [ 48, 72 ], "repeat": [ 8, 15 ], "chance": 50 },
-        { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "x": [ 0, 71 ], "y": [ 0, 23 ], "repeat": [ 3, 5 ], "chance": 50 },
-        { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "x": [ 0, 21 ], "y": [ 21, 72 ], "repeat": [ 3, 5 ], "chance": 50 },
+      "place_nested": [ { "chunks": [ "hollow_village_interior" ], "x": 25, "y": 25 } ],
+      "place_monster": [
+        { "group": "GROUP_HOLLOW_TRIBAL_WORKERS", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 3, 8 ], "chance": 50 },
+        { "group": "GROUP_HOLLOW_TRIBAL_WORKERS", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": [ 3, 8 ], "chance": 50 },
+        { "group": "GROUP_HOLLOW_TRIBAL_WORKERS", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": [ 3, 8 ], "chance": 50 },
+        { "group": "GROUP_HOLLOW_TRIBAL_WORKERS", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": [ 3, 8 ], "chance": 50 },
+        { "group": "GROUP_HOLLOW_TRIBAL_WORKERS", "x": [ 48, 71 ], "y": [ 24, 47 ], "repeat": [ 3, 8 ], "chance": 50 },
+        { "group": "GROUP_HOLLOW_TRIBAL_WORKERS", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": [ 3, 8 ], "chance": 50 },
+        {
+          "group": "GROUP_HOLLOW_TRIBAL_WORKERS",
+          "x": [ 24, 47 ],
+          "y": [ 48, 71 ],
+          "repeat": [ 8, 15 ],
+          "chance": 50
+        },
+        { "group": "GROUP_HOLLOW_TRIBAL_WORKERS", "x": [ 48, 71 ], "y": [ 48, 71 ], "repeat": [ 3, 8 ], "chance": 50 },
+        { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 1, 2 ], "chance": 50 },
+        { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "x": [ 24, 47 ], "y": [ 0, 23 ], "repeat": [ 1, 2 ], "chance": 50 },
+        { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "x": [ 48, 71 ], "y": [ 0, 23 ], "repeat": [ 1, 2 ], "chance": 50 },
+        { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "x": [ 0, 23 ], "y": [ 24, 47 ], "repeat": [ 1, 2 ], "chance": 50 },
         {
           "group": "GROUP_HOLLOW_TRIBAL_WARPARTY",
-          "x": [ 47, 71 ],
-          "y": [ 21, 72 ],
-          "repeat": [ 3, 5 ],
+          "x": [ 48, 71 ],
+          "y": [ 24, 47 ],
+          "repeat": [ 1, 2 ],
+          "chance": 50
+        },
+        { "group": "GROUP_HOLLOW_TRIBAL_WARPARTY", "x": [ 0, 23 ], "y": [ 48, 71 ], "repeat": [ 1, 2 ], "chance": 50 },
+        {
+          "group": "GROUP_HOLLOW_TRIBAL_WARPARTY",
+          "x": [ 24, 47 ],
+          "y": [ 48, 71 ],
+          "repeat": [ 2, 4 ],
           "chance": 50
         },
         {
           "group": "GROUP_HOLLOW_TRIBAL_WARPARTY",
-          "x": [ 22, 49 ],
-          "y": [ 48, 72 ],
-          "repeat": [ 6, 8 ],
+          "x": [ 48, 71 ],
+          "y": [ 48, 71 ],
+          "repeat": [ 1, 2 ],
+          "chance": 50
+        },
+        { "group": "GROUP_HOLLOW_TRIBAL_HUNTPARTY", "x": [ 0, 23 ], "y": [ 0, 23 ], "repeat": [ 0, 1 ], "chance": 50 },
+        {
+          "group": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
+          "x": [ 24, 47 ],
+          "y": [ 0, 23 ],
+          "repeat": [ 0, 1 ],
           "chance": 50
         },
         {
           "group": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
-          "x": [ 0, 71 ],
-          "y": [ 0, 71 ],
-          "repeat": [ 5, 10 ],
-          "chance": 60
+          "x": [ 48, 71 ],
+          "y": [ 0, 23 ],
+          "repeat": [ 0, 1 ],
+          "chance": 50
+        },
+        {
+          "group": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
+          "x": [ 0, 23 ],
+          "y": [ 24, 47 ],
+          "repeat": [ 0, 1 ],
+          "chance": 50
+        },
+        {
+          "group": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
+          "x": [ 48, 71 ],
+          "y": [ 24, 47 ],
+          "repeat": [ 0, 1 ],
+          "chance": 50
+        },
+        {
+          "group": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
+          "x": [ 0, 23 ],
+          "y": [ 48, 71 ],
+          "repeat": [ 0, 1 ],
+          "chance": 50
+        },
+        {
+          "group": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
+          "x": [ 24, 47 ],
+          "y": [ 48, 71 ],
+          "repeat": [ 2, 3 ],
+          "chance": 50
+        },
+        {
+          "group": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
+          "x": [ 48, 71 ],
+          "y": [ 48, 71 ],
+          "repeat": [ 0, 1 ],
+          "chance": 50
         }
       ]
     }
