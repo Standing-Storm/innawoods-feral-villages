@@ -24,11 +24,27 @@
   {
     "type": "monstergroup",
     "name": "GROUP_ZOMBIE_CRAWLER_INNAWOOD_UPGRADE",
-    "//": "Masters pick from here when upgrading; no dogs, bionics, or profession-types.  Note that 'freq' units are tenth of a percent, with default filling in the gap.",
     "monsters": [
       { "monster": "mon_zombie_crawler" },
       { "monster": "mon_zombie_crawler_pupa", "weight": 500 },
       { "monster": "mon_zombie_crawler_pupa_decoy", "weight": 350 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_ZOMBIE_GRAB_INNAWOOD",
+    "monsters": [
+      { "monster": "mon_zombie_grappler", "weight": 960, "cost_multiplier": 0 },
+      { "monster": "mon_zombie_biter", "weight": 40, "cost_multiplier": 2 }
+    ]
+  },
+  {
+    "type": "monstergroup",
+    "name": "GROUP_SKELETON_UPGRADE_INNAWOOD",
+    "monsters": [
+      { "monster": "mon_skeleton", "weight": 720 },
+      { "monster": "mon_skeleton_brute", "weight": 80, "cost_multiplier": 2 },
+      { "monster": "mon_skeleton_brute", "weight": 80, "cost_multiplier": 2 }
     ]
   }
 ]
