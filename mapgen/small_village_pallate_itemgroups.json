@@ -31,7 +31,10 @@
     },
     "items": {
       "U": { "item": "hollow_village_foodstuffs", "repeat": [ 1, 2 ], "chance": 80 },
-      "=": { "item": "hollow_village_storage", "chance": 70, "repeat": [ 1, 3 ] }
+      "=": { "item": "hollow_village_storage", "chance": 70, "repeat": [ 1, 3 ] },
+      "+": [ { "item": "hollow_village_farm_tools", "chance": 80, "repeat": [ 3, 4 ] },
+        { "item": "hollow_village_farming_seeds", "chance": 80, "repeat": [ 3, 4 ] }
+      ]
     },
     "furniture": { "t": "f_logstool", "o": "f_firering", "O": "f_firering", "=": "f_rack_primitive", "+": "f_rack_primitive", "H": "f_smoking_rack", "B": "f_hammock" }
   },
@@ -73,6 +76,18 @@
     "entries": [
       { "item": "digging_stick", "prob": 90 },
       { "item": "sharp_rock", "prob": 75 }
+    ]
+  },
+  {
+  "type": "item_group",
+    "id": "hollow_village_farming_seeds",
+     "subtype": "distribution",
+    "container-item": "bag_canvas",
+    "entries": [
+      { "item": "seed_oats", "prob": 80, "count": [ 20, 40 ]  },
+      { "item": "seed_carrot", "prob": 40, "count": [ 20, 40 ]  },
+      { "item": "seed_zucchini", "prob": 60, "count": [ 20, 40 ]  }
+      
     ]
   }
 ]
