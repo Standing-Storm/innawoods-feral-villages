@@ -15,7 +15,8 @@
       "I": "t_drystone_wall_half",
       "W": "t_wooden_well",
       ".": "t_grass",
-      "_": "t_dirt"
+      "_": "t_dirt",
+       "#": [ [ "t_dirtmound", 98 ], [ "t_region_soil", 2 ] ]
     },
     "items": {
       "U": { "item": "hollow_village_foodstuffs", "repeat": [ 1, 2 ], "chance": 80 },
