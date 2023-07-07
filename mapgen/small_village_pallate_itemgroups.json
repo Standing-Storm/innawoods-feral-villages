@@ -16,7 +16,17 @@
       "W": "t_wooden_well",
       ".": "t_grass",
       "_": "t_dirt",
-       "%": [ [ "t_dirtmound", 98 ], [ "t_region_soil", 2 ] ]
+       "%": [ [ "t_dirtmound", 98 ], [ "t_region_soil", 2 ] ],
+       "Ʌ": [ [ "t_dirtmound", 98 ], [ "t_region_soil", 2 ] ],
+      "♣": [ [ "t_dirtmound", 98 ], [ "t_region_soil", 2 ] ]
+    },
+    "sealed_item": {
+      "%": { "item": { "item": "seed_oats" }, "furniture": "f_plant_seedling", "chance": 96 },
+      "♣": { "item": { "item": "seed_carrot" }, "furniture": "f_plant_seedling", "chance": 70 },
+       "Ʌ": { "item": { "item": "seed_zucchini" }, "furniture": "f_plant_seedling", "chance": 70 }
+
+      
+
     },
     "items": {
       "U": { "item": "hollow_village_foodstuffs", "repeat": [ 1, 2 ], "chance": 80 },
