@@ -1,7 +1,7 @@
 [
   {
     "type": "furniture",
-    "id": "f_rack_primitive"
+    "id": "f_rack_primitive",
     "name": "wooden rack",
     "symbol": "{",
     "description": "Wooden planks lashed together with cords to form a set of shelves.",
@@ -25,7 +25,11 @@
       "str_max": 40,
       "sound": "smash!",
       "sound_fail": "whump.",
-      "items": [ { "item": "2x4", "count": [ 2, 6 ] }, { "item": "rope_makeshift_6", "charges": [ 1, 3 ] }, { "item": "splinter", "count": 12 } ]
+      "items": [
+        { "item": "2x4", "count": [ 2, 6 ] },
+        { "item": "rope_makeshift_6", "charges": [ 1, 3 ] },
+        { "item": "splinter", "count": 12 }
+      ]
     }
   }
 ]
