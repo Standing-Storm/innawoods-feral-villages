@@ -19,8 +19,7 @@
     "name": "hollow_hunter",
     "base_faction": "human",
     "friendly": [ "hollow_civilian, hollow_warrior" ],
-    "hate": [ "small_animal", "vermin" ],
-    "hate": [ "zombie" ],
+    "hate": [ "small_animal", "vermin", "zombie" ],
     "by_mood": [ "player" ]
   }
 ]

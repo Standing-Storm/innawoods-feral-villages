@@ -14,7 +14,7 @@
       "=": "t_dirtfloor_thatchroof",
       "I": "t_drystone_wall_half",
       "W": "t_wooden_well",
-      ".": "t_grass",
+      ".": [ [ "t_grass", 85 ], [ "t_dirt", 15 ] ],
       ",": [ [ "t_region_soil", 95 ], [ "t_grass", 5 ] ],
       "_": "t_dirt",
       "%": [ [ "t_dirtmound", 98 ], [ "t_region_soil", 2 ] ],

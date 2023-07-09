@@ -28,9 +28,10 @@
       { "group": "pants_male", "prob": 100, "damage": [ 1, 4 ] },
       { "group": "npc_coat", "prob": 40, "damage": [ 1, 4 ] },
       { "group": "npc_gloves", "prob": 100, "damage": [ 1, 4 ] },
-      { "item": "wicker_backpack", "prob": 35 },
-      { "item": "jug_clay", "prob": 20 },
-      { "group": "tools_common_small", "prob": 25 }
+      { "item": "wicker_backpack", "prob": 35, "damage": [ 1, 4 ] },
+      { "item": "jug_clay", "prob": 20, "damage": [ 1, 4 ] },
+      { "group": "tools_common_small", "prob": 25, "damage": [ 1, 4 ] },
+      { "item": "primitive_axe", "prob": 20, "damage": [ 1, 4 ] }
     ]
   },
   {
@@ -48,7 +49,8 @@
       { "group": "pants_male", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "vambrace_larmor", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "grass_cloak", "prob": 30, "damage": [ 1, 4 ] },
-      { "item": "rope_loop", "prob": 55, "damage": [ 1, 4 ] }
+      { "item": "rope_loop", "prob": 55, "damage": [ 1, 4 ] },
+      { "item": "waterskin2", "contents-item": "water-clean", "prob": 20, "count": [ 1, 3 ] }
     ]
   },
   {
@@ -66,7 +68,9 @@
       { "group": "npc_coat", "prob": 40, "damage": [ 1, 4 ] },
       { "group": "npc_gloves", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "wicker_backpack", "prob": 35, "damage": [ 1, 4 ] },
-      { "group": "tools_common_small", "prob": 25, "damage": [ 1, 4 ] }
+      { "group": "tools_common_small", "prob": 25, "damage": [ 1, 4 ] },
+      { "item": "primitive_axe", "prob": 20, "damage": [ 1, 4 ] },
+      { "item": "waterskin2", "contents-item": "water-clean", "prob": 20, "count": [ 1, 3 ] }
     ]
   }
 ]

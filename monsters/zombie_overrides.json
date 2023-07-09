@@ -4,7 +4,7 @@
     "type": "MONSTER",
     "copy-from": "mon_zombie",
     "upgrades": { "half_life": 30, "into_group": "GROUP_ZOMBIE_INNAWOOD_UPGRADE" },
-    "death_drops": "hollow_one_death_drops_zombie_zombie"
+    "death_drops": "hollow_one_death_drops_zombie"
   },
   {
     "id": "mon_zombie_crawler",
