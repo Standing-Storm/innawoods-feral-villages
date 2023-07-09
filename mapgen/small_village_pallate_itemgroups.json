@@ -12,6 +12,7 @@
       "o": "t_dirtfloor_thatchroof",
       "B": "t_dirtfloor_thatchroof",
       "=": "t_dirtfloor_thatchroof",
+      "+": "t_dirtfloor_thatchroof",
       "I": "t_drystone_wall_half",
       "W": "t_wooden_well",
       ".": [ [ "t_grass", 85 ], [ "t_dirt", 15 ] ],

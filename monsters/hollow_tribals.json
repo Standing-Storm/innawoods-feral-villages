@@ -143,7 +143,7 @@
         "cooldown": 6,
         "move_cost": 200,
         "gun_type": "hollow_one_bow",
-        "ammo_type": "arrow",
+        "ammo_type": "arrow_wood",
         "no_ammo_sound": "",
         "fake_skills": [ [ "archery", 5 ] ],
         "fake_str": 9,
