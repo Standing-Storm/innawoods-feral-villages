@@ -50,7 +50,7 @@
       { "item": "vambrace_larmor", "prob": 100, "damage": [ 1, 4 ] },
       { "item": "grass_cloak", "prob": 30, "damage": [ 1, 4 ] },
       { "item": "rope_loop", "prob": 55, "damage": [ 1, 4 ] },
-      { "item": "waterskin2", "contents-item": "water-clean", "prob": 20, "count": [ 1, 3 ] }
+      { "item": "water_clean", "prob": 50 }
     ]
   },
   {
@@ -70,7 +70,7 @@
       { "item": "wicker_backpack", "prob": 35, "damage": [ 1, 4 ] },
       { "group": "tools_common_small", "prob": 25, "damage": [ 1, 4 ] },
       { "item": "primitive_axe", "prob": 20, "damage": [ 1, 4 ] },
-      { "item": "waterskin2", "contents-item": "water_clean", "prob": 20, "count": [ 1, 3 ] }
+      { "item": "water_clean", "prob": 50 }
     ]
   }
 ]
