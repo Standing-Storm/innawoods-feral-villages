@@ -5,7 +5,7 @@
     "name": "Innawood Hostile Villages and Color Locations",
     "authors": [ "Standing Storm" ],
     "maintainers": [ "Standing Storm" ],
-    "description": "Adds hostile villages and inhabitants to Innawoods games.  Uses custom monsters with only stone-age technology, so it adds more humans to the setting without jump-starting progression or making the game easier.",
+    "description": "Adds hostile villages and inhabitants to Innawoods games.  Uses custom monsters with only stone-age technology, so it adds more humans to the setting without jump-starting progression or making the game easier.  Also adds zombie versions of those humans, but with Stone Age appropriate drops.",
     "category": "content",
     "dependencies": [ "dda", "innawood" ],
     "obsolete": false
