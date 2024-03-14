@@ -101,7 +101,9 @@
       { "item": "honey_bottled", "count": [ 1, 2 ], "container-item": "clay_pot", "prob": 20 },
       { "item": "meat_smoked", "count": [ 6, 10 ], "prob": 50 },
       { "item": "water_clean", "count": [ 4, 8 ], "container-item": "clay_pot", "prob": 60 },
-      { "item": "fish_smoked", "count": [ 6, 10 ], "prob": 50 }
+      { "item": "fish_smoked", "count": [ 6, 10 ], "prob": 50 },
+      { "item": "dry_veggy", "count": [ 10, 20 ], "prob": 75 },
+      { "item": "dry_fruit", "count": [ 10, 20 ], "prob": 75 }
     ]
   },
   {
