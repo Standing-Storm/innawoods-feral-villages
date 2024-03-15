@@ -10,7 +10,7 @@
     "known_by_u": false,
     "size": 100,
     "power": 100,
-    "food_supply": 115200,
+    "fac_food_supply": { "calories": 1152000, "vitamins": { "iron": 8000, "calcium": 8000, "vitC": 6000 } },
     "lone_wolf_faction": false,
     "wealth": 75000,
     "currency": "copper",
