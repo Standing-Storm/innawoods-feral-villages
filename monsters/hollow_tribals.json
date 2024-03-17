@@ -18,8 +18,8 @@
     "aggression": 0,
     "morale": 100,
     "melee_skill": 3,
-    "melee_dice": 2,
-    "melee_dice_sides": 5,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
     "dodge": 3,
     "armor": { "bash": 9, "cut": 14, "acid": 4, "bullet": 1 },
     "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_body_armor" ],
@@ -28,16 +28,16 @@
       [ "PARROT_AT_DANGER", 0 ],
       {
         "id": "stretch_attack",
-        "cooldown": 4,
+        "cooldown": 1,
         "range": 2,
+        "damage_max_instance": [ { "damage_type": "stab", "amount": 20 } ],
         "hit_dmg_u": "%1$s thrusts a spear at your %2$s, slashing it!",
         "hit_dmg_npc": "%1$s thrusts a spear at <npcname>'s %2$s, slashing it!",
         "no_dmg_msg_u": "%1$s thrusts a spear at your %2$s, but glances off your armor!",
         "no_dmg_msg_npc": "%1$s thrusts a spear at <npcname>'s %2$s, but glances off armor!",
         "miss_msg_u": "%s thrusts a spear at you, but you evade!",
         "miss_msg_npc": "%s thrusts a spear at <npcname>, but they evade!"
-      },
-      { "id": "impale", "cooldown": 6, "range": 2 }
+      }
     ],
     "harvest": "human",
     "dissect": "dissect_human_sample_single",
@@ -131,8 +131,8 @@
     "aggression": -10,
     "morale": 100,
     "melee_skill": 3,
-    "melee_dice": 2,
-    "melee_dice_sides": 3,
+    "melee_dice": 1,
+    "melee_dice_sides": 6,
     "dodge": 4,
     "armor": { "bash": 2, "cut": 4, "stab": 3, "bullet": 2 },
     "weakpoint_sets": [ "wps_humanoid_body", "wps_humanoid_body_armor" ],
@@ -149,7 +149,24 @@
         "fake_str": 9,
         "require_targeting_player": false,
         "ranges": [ [ 3, 12, "DEFAULT" ] ],
-        "description": "The hollow hunter shoots at arrow!"
+        "description": "The hollow hunter shoots an arrow!"
+      },
+      {
+        "type": "monster_attack",
+        "attack_type": "melee",
+        "id": "hollow_one_weapon_knife",
+        "cooldown": 1,
+        "move_cost": 80,
+        "accuracy": 1,
+        "//": "Stone knife",
+        "damage_max_instance": [ { "damage_type": "cut", "amount": 5 } ],
+        "condition": { "and": [ { "not": { "u_has_effect": "maimed_arm" } }, { "not": { "u_has_effect": "disarmed" } } ] },
+        "hit_dmg_u": "%1$s slashes your %2$s with a knife!",
+        "hit_dmg_npc": "%1$s slashes <npcname>'s %2$s with a knife!",
+        "miss_msg_u": "%1$s tries to slashes you, but you dodge!",
+        "miss_msg_npc": "%1$s tries to slashes <npcname>, but they dodge!",
+        "no_dmg_msg_u": "%1$s slashes your %2$s without penetrating your armor.",
+        "no_dmg_msg_npc": "%1$s slashes <npcname>'s %2$s without penetrating their armor."
       }
     ],
     "harvest": "human",
