@@ -113,7 +113,12 @@
         "overmap": "hollow_village_zomb_8_north",
         "locations": [ "forest_edge", "field", "lake_shore" ]
       },
-      { "point": [ 2, 2, 0 ], "overmap": "hollow_village_zomb_9_north" }
+      { "point": [ 2, 2, 0 ], "overmap": "hollow_village_zomb_9_north" },
+      { "point": [ 1, 1, 1 ], "overmap": "hollow_village5_roofs_north" },
+      { "point": [ 2, 1, 1 ], "overmap": "hollow_village6_roofs_north" },
+      { "point": [ 0, 2, 1 ], "overmap": "hollow_village7_roofs_north" },
+      { "point": [ 1, 2, 1 ], "overmap": "hollow_village8_roofs_north" },
+      { "point": [ 2, 2, 1 ], "overmap": "hollow_village9_roofs_north" }
     ],
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -5 ],
