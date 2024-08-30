@@ -210,7 +210,7 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -5 ],
     "city_sizes": [ 0, 13 ],
-    "occurrences": [ 66, 100 ],
+    "occurrences": [ 50, 100 ],
     "flags": [ "OVERMAP_UNIQUE" ],
     "spawns": { "group": "GROUP_HOLLOW_TRIBAL_OUTRIDERS", "population": [ 15, 30 ], "radius": [ 4, 30 ] }
   },

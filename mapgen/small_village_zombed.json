@@ -118,7 +118,7 @@
     "locations": [ "wilderness" ],
     "city_distance": [ 20, -5 ],
     "city_sizes": [ 0, 13 ],
-    "occurrences": [ 66, 100 ],
+    "occurrences": [ 40, 100 ],
     "flags": [ "OVERMAP_UNIQUE" ],
     "spawns": { "group": "GROUP_HOLLOW_ZOMBIES", "population": [ 15, 30 ], "radius": [ 2, 10 ] }
   },
