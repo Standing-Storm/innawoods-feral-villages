@@ -116,7 +116,7 @@
     "id": "mon_hollow_hunter",
     "type": "MONSTER",
     "name": { "str": "hollow hunter" },
-    "description": "A human holding a bow and dressed for wilderness travel.  They .",
+    "description": "A human holding a bow and dressed for wilderness travel.  Though they seem aware of their surroundings, their eyes have a vacant expression.",
     "default_faction": "hollow_hunter",
     "bodytype": "human",
     "looks_like": "mon_feral_survivalist",
