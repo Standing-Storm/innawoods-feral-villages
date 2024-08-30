@@ -119,7 +119,7 @@
     "city_distance": [ 20, -5 ],
     "city_sizes": [ 0, 13 ],
     "occurrences": [ 66, 100 ],
-    "flags": [ "UNIQUE" ],
+    "flags": [ "OVERMAP_UNIQUE" ],
     "spawns": { "group": "GROUP_HOLLOW_ZOMBIES", "population": [ 15, 30 ], "radius": [ 2, 10 ] }
   },
   {
@@ -135,10 +135,11 @@
       "hollow_village_zomb_8",
       "hollow_village_zomb_9"
     ],
-    "name": "small village",
+    "name": "overrun village",
+    "vision_levels": "zombie_village",
     "sym": "v",
     "color": "red",
-    "see_cost": 6,
+    "see_cost": "high",
     "flags": [ "RISK_HIGH" ]
   }
 ]

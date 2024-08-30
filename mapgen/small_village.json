@@ -211,7 +211,7 @@
     "city_distance": [ 20, -5 ],
     "city_sizes": [ 0, 13 ],
     "occurrences": [ 66, 100 ],
-    "flags": [ "UNIQUE" ],
+    "flags": [ "OVERMAP_UNIQUE" ],
     "spawns": { "group": "GROUP_HOLLOW_TRIBAL_OUTRIDERS", "population": [ 15, 30 ], "radius": [ 4, 30 ] }
   },
   {
@@ -228,9 +228,10 @@
       "hollow_village9"
     ],
     "name": "small village",
+    "vision_levels": "hollow_village",
     "sym": "v",
     "color": "red",
-    "see_cost": 6,
+    "see_cost": "high",
     "flags": [ "RISK_HIGH" ]
   }
 ]

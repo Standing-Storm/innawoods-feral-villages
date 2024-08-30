@@ -57,7 +57,7 @@
       "GROUP_BASH",
       "HUMAN",
       "CAN_OPEN_DOORS",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER",
       "PRIORITIZE_TARGETS"
     ]
   },
@@ -110,7 +110,7 @@
     "fungalize_into": "mon_feral_human_pipe_fungal_infected",
     "fear_triggers": [ "FRIEND_DIED" ],
     "anger_triggers": [ "FRIEND_ATTACKED", "HURT" ],
-    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "HUMAN", "CAN_OPEN_DOORS", "PATH_AVOID_DANGER_1", "DROPS_AMMO" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "WARM", "BASHES", "HUMAN", "CAN_OPEN_DOORS", "PATH_AVOID_DANGER", "DROPS_AMMO" ]
   },
   {
     "id": "mon_hollow_hunter",
@@ -187,7 +187,7 @@
       "GROUP_BASH",
       "HUMAN",
       "CAN_OPEN_DOORS",
-      "PATH_AVOID_DANGER_1",
+      "PATH_AVOID_DANGER",
       "PRIORITIZE_TARGETS",
       "DROPS_AMMO"
     ]
