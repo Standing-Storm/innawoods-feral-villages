@@ -7,7 +7,6 @@
     "color": "yellow",
     "name": { "str": "hollow short bow" },
     "description": "The bows carried by the hollow one hunters.",
-    "price": 16000,
     "material": [ "wood" ],
     "flags": [
       "FIRE_TWOHAND",
