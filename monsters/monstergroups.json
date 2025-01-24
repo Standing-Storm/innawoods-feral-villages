@@ -1,6 +1,6 @@
 [
   {
-    "name": "GROUP_HOLLOW_TRIBALS",
+    "id": "GROUP_HOLLOW_TRIBALS",
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_hollow_tribal_warrior", "weight": 10 },
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "name": "GROUP_HOLLOW_TRIBAL_WORKERS",
+    "id": "GROUP_HOLLOW_TRIBAL_WORKERS",
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_hollow_tribal", "weight": 40 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "name": "GROUP_HOLLOW_TRIBAL_WARPARTY",
+    "id": "GROUP_HOLLOW_TRIBAL_WARPARTY",
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_hollow_tribal_warrior", "weight": 20 },
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "name": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
+    "id": "GROUP_HOLLOW_TRIBAL_HUNTPARTY",
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_hollow_hunter", "weight": 20 },
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "name": "GROUP_HOLLOW_TRIBAL_OUTRIDERS",
+    "id": "GROUP_HOLLOW_TRIBAL_OUTRIDERS",
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_hollow_tribal_warrior", "weight": 20 },
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "name": "GROUP_HOLLOW_ZOMBIES",
+    "id": "GROUP_HOLLOW_ZOMBIES",
     "type": "monstergroup",
     "monsters": [
       { "monster": "mon_zombie", "weight": 800 },
@@ -55,7 +55,7 @@
     ]
   },
   {
-    "name": "GROUP_FOREST",
+    "id": "GROUP_FOREST",
     "type": "monstergroup",
     "monsters": [
       {
@@ -71,7 +71,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_SWAMP",
+    "id": "GROUP_SWAMP",
     "monsters": [
       { "group": "GROUP_HOLLOW_ZOMBIES", "weight": 25 },
       { "group": "GROUP_HOLLOW_ZOMBIES", "weight": 5, "pack_size": [ 2, 5 ] }
@@ -79,7 +79,7 @@
   },
   {
     "type": "monstergroup",
-    "name": "GROUP_RIVER",
+    "id": "GROUP_RIVER",
     "default": "mon_null",
     "is_animal": true,
     "monsters": [
