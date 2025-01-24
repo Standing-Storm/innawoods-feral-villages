@@ -25,7 +25,6 @@
     "weight": "340 g",
     "volume": "1500 ml",
     "longest_side": "132 cm",
-    "price_postapoc": 500,
     "reload_noise_volume": 3,
     "loudness": 6,
     "ranged_damage": { "damage_type": "stab", "amount": 4 },
