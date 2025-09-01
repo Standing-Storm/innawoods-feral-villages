@@ -2,7 +2,8 @@
   {
     "id": "hollow_one_bow",
     "looks_like": "longbow",
-    "type": "GUN",
+    "type": "ITEM",
+    "subtypes": [ "GUN" ],
     "symbol": "(",
     "color": "yellow",
     "name": { "str": "hollow short bow" },

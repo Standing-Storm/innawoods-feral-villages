@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [
       [ "hollow_village1", "hollow_village2", "hollow_village3" ],
       [ "hollow_village4", "hollow_village5", "hollow_village6" ],

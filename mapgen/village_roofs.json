@@ -1,7 +1,6 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ [ "hollow_village5_roofs", "hollow_village6_roofs" ] ],
     "object": {
       "fill_ter": "t_open_air",
@@ -36,7 +35,6 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
     "om_terrain": [ [ "hollow_village7_roofs", "hollow_village8_roofs", "hollow_village9_roofs" ] ],
     "object": {
       "fill_ter": "t_open_air",
